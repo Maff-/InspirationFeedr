@@ -1,0 +1,18 @@
+{
+  "name": "InspirationFeedr",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.4.0",
+    "mongoose": "1.3.0",
+    "jsdom": "0.2.0",
+    "sax": "0.1.4",
+    "request": "1.9.8",
+    "htmlparser": "*",
+    "imagemagick": "*",
+    "querystring": "*",
+    "markdown": "*",
+    "ejs": "*",
+    "eyes": "*"
+  },
+  "main": "server"
+}

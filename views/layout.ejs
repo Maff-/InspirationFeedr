@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+
+	<title><%= title %></title>
+	<meta name="description" content="<%= description %>">
+	<meta name="author" content="<%= author %>">
+	
+	<style>
+		body{font-size:80.0%}
+		a:link,a:visited{text-decoration:none;}
+		ul,ol{list-style:none;}
+		h1,h2,h3,h4,h5,h6,pre,code{font-size:1em;}
+		ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0;padding:0;}
+		a img,:link img,:visited img{border:none;}
+		address{font-style:normal;}
+		
+		* {
+			color: #999;
+			font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+			line-height: 1.5em;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #2f2f2f;
+			color: #999;
+		}
+		h1,h2,h3,h4,h5,h6 {
+			color: #ffffff;
+			margin: 1.5em 0 0.5em 0;
+		}
+		h2 {
+			font-size: 150%;
+			text-shadow: 2px 2px 5px #2f2f2f;
+		}
+		h3 {
+			font-size: 120%;
+			color: #ff9933;
+		}
+		ul li, ol li {
+			list-style-type: square;
+			margin-left: 1.2em;
+		}
+		#wrapper > header {
+			padding: 0 0 30px 0;
+			height: 72px;
+		}
+		#wrapper > header > h1 {
+			background: url('/images/inspirationfeedr_logo.png') no-repeat;
+			height: 72px;
+			width: 306px;
+			font-size: 1px;
+			float: left;
+		}
+		#wrapper > header > nav li {
+			float: right;
+			padding-top: 30px;
+			margin-left: 0;
+			list-style-type: none;
+		}
+		#wrapper > header > nav li a {
+			font: 15px/120% Arial, sans-serif;
+			font-weight: bold;
+			color: #ffffff;
+			background-color: #3c3c3c;
+			padding: 10px 15px;
+			display: block;
+			float: left;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			margin: 5px;
+			line-height: 1em;
+		}
+		#wrapper {
+			margin: 50px auto;
+			width: 600px;
+		}
+		section#content {
+			clear: both;
+		}
+		section#content article {
+			background: #3c3c3c;
+			padding: 40px;
+			position: relative;
+			box-shadow: 0 0 5px #2c2c2c;
+		}
+		footer {
+			font-size: .8em;
+			padding: 25px 0;
+		}
+		
+		p {
+			margin: 1.5em 0;
+		}
+		p:first-of-type {
+			margin-top: 0;
+		}
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+		
+		a:link,
+		a:visited {
+			color: #ff9933;
+			text-decoration: none;
+			-webkit-transition: all 150ms ease-out;
+			-moz-transition: all 150ms ease-out;
+			-o-transition: all 150ms ease-out;
+			-ms-transition: all 150ms ease-out;
+			transition: all 150ms ease-out;
+		}
+		a:hover {
+			color: #ffffff;
+		}
+		
+		a.button:link,
+		a.button:visited {
+			font: 15px/120% Arial, sans-serif;
+			font-weight: bold;
+			color: #ff9933;
+			background-color: #2f2f2f;
+			padding: 10px 15px;
+			display: block;
+			float: left;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			margin: 5px;
+			line-height: 1em;
+		}
+		a.button:hover {
+			background-color: #222;
+		}
+		a.button span {
+			font: 11px/120% 'Lucida Sans', Arial, sans-serif;
+			font-weight: normal;
+			color: #666666;
+		}
+		
+		footer a:link,
+		footer a:visited {
+			color: #cccccc;
+		}
+		footer a:hover {
+			color: #ffffff;
+		}
+		
+		img {
+			border: none;
+		}
+		
+		strong {
+			color: #ffffff;
+			font-weight: bold;
+		}
+		code, pre {
+			color: #dddddd;
+			font-size: 100%;
+			font-family: Consolas, "Andale Mono", "Courier New", Courier;
+		}
+		pre, blockquote {
+			padding-left: 10px;
+			border-left: 5px solid #444444;
+		}
+		::selection, ::-moz-selection {
+			color: #ffffff;
+			background: #ff9933;
+		}
+	</style>
+	
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Inpsiration Feedr</h1>
+		<nav id="mainnav">
+			<ul>
+				<li><a href="/">Info</a></li>
+				<li><a href="/docs/api">API</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="content">
+		<%- body %>
+	</section><!-- end #content" -->
+	<footer>
+		<p>
+			Page design based on <a href="http://www.vostoktheme.com/">Vostok Theme</a>.<br />
+			InspirationFeedr concept by <a href="http://www.kasperkamperman.com/" title="Kasper Kamperman">Kasper Kamperman</a> & <a href="http://www.ruudbijnen.nl/" title="Ruud Bijnen">Ruud Bijnen</a>.<br />
+		</p>
+	</footer>
+	</div> <!-- end #wrapper -->
+<a href="http://github.com/Maff-/InspirationFeedr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* reset */
+body{font-size:80.0%}
+a:link,a:visited{text-decoration:none;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6,pre,code{font-size:1em;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0;padding:0;}
+a img,:link img,:visited img{border:none;}
+address{font-style:normal;}
+
+* {
+	color: #999;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2f2f2f;
+	color: #999;
+}

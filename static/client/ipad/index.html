@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<head>
+	<title>InspirationFeedr iPad Demo Client</title>
+	
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+	<meta name = "viewport" content = "initial-scale = 1.0">
+	
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="jquery.touchSwipe-1.2.4.js"></script>
+	<script type="text/javascript" src="/js/json2.js"></script>
+	<script type="text/javascript" src="/js/underscore-min.js"></script>
+	<script type="text/javascript" src="/js/backbone-min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<!--<script type="text/javascript" src="/js/jquery.mobile-1.0b1.min.js"></script>-->
+</head>
+<body>
+	<section id="appview">
+	</section>
+	
+    <script type="text/template" id="template-image"> 
+      <div class="Image">
+      	<img src="<%= url %>" alt="<%= title %>" />
+      <div/>
+    </script>
+</body>
+</html>

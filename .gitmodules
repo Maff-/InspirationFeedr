@@ -1,0 +1,6 @@
+[submodule "vendor/sax-js"]
+	path = vendor/sax-js
+	url = git://github.com/isaacs/sax-js.git
+[submodule "vendor/jsdom"]
+	path = vendor/jsdom
+	url = git://github.com/tmpvar/jsdom.git
